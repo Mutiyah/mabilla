@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/logo.png" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="/styles/index.css" />
+    <link rel="stylesheet" type="text/css" href="/styles/about_us.css" />
+
+    <title>Mabilla Group</title>
+  </head>
+
+  <body>
+    <!-- nav bar     -->
+    <header id="topmost">
+      <nav class="navbar navbar-expand-lg vw-100">
+        <div class="container fluid">
+          <a class="navbar-brand" href="/index.html">
+            <img src="/images/logo.png" alt="Mabilla logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon navbar-light"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  type="button"
+                  id="navbarDropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Industries
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                <li><a class="dropdown-item" href="./industries.html">Finance</a></li>
+                <li><a class="dropdown-item" href="./industries.html">Solar</a></li>
+                <li><a class="dropdown-item" href="./industries.html">Education</a></li>
+                <li><a class="dropdown-item" href="./industries.html">Affiliate</a></li> 
+              </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn contactUsBtn" href="./contact.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main section -->
+    <main id="about_us_main">
+      <!-- about after navbar -->
+      <section id="about__after_navbar">
+        <div id="about__after_navbar_text">
+          <div>
+            <h1>Who We are</h1>
+            <p>
+              We build companies that help people around the world thrive and
+              progress in the modern digital world. We build companies that help
+              people around the world thrive and progress in the modern digital
+              world.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- More info about us section -->
+      <section id="more_about_mabilla">
+        <h3>About Us</h3>
+        <div id="more_about_mabilla_sub">
+          <div id="details_about_us">
+            <h6>Lorem ipsum dolor sit amet, sedaliqua.</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sedaliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sedaliqua. Lorem ipsum dolo a. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sedaliqua.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sedaliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sedaliqua. Lorem ipsum dolo a. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sedaliqua.
+            </p>
+          </div>
+
+          <!-- about us accordion section -->
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Lorem ipsum dolor sit amet, sedaliqua.
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sedaliqua. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sedaliqua. Lorem ipsum dolo a. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit, sedaliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Lorem ipsum dolor sit amet, sedaliqua.
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sedaliqua. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sedaliqua. Lorem ipsum dolo a. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit, sedaliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Lorem ipsum dolor sit amet, sedaliqua.
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sedaliqua. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sedaliqua. Lorem ipsum dolo a. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit, sedaliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our core values section -->
+      <section id="core_values">
+        <h3>Our core values</h3>
+        <div id="core_value_card_container">
+          <div class="core_value_card">
+            <div class="core_value_card_heading">
+              <span><img src="/images/Vector (1).png" alt="" /></span>
+              <h5>Transparency</h5>
+            </div>
+            <div class="core_value_card_body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sedaliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sedaliqua.
+              </p>
+            </div>
+          </div>
+
+          <div class="core_value_card">
+            <div class="core_value_card_heading">
+              <span><img src="/images/Vector (1).png" alt="" /></span>
+              <h5>Transparency</h5>
+            </div>
+            <div class="core_value_card_body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sedaliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sedaliqua.
+              </p>
+            </div>
+          </div>
+
+          <div class="core_value_card">
+            <div class="core_value_card_heading">
+              <span><img src="/images/Vector (1).png" alt="" /></span>
+              <h5>Transparency</h5>
+            </div>
+            <div class="core_value_card_body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sedaliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sedaliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- brand tabs section -->
+      <section id="brand-tab-section">
+        <div id="brand-tab-section-text">
+          <h6>OUR BRAND</h6>
+          <h4>An integrated System of all our brands</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" >
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Messages</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Settings</button>
+          </li>
+        </ul>
+        
+        <div class="tab-content">
+          <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <div class="tab-content">
+              <div class="tab-content-img"><img src="/images/Rectangle 2486.png" alt="" /></div>
+              <div class="tab-content-text">
+                <h5>Financial Institution</h5>
+                <p>
+                  Home
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eligendi enim necessitatibus numquam quae error corporis,
+                  molestias cumque. Quasi in corrupti reiciendis incidunt harum!
+                  Voluptatibus numquam maiores rem nobis, enim aliquam.
+                </p>
+              </div>
+            </div></div>
+          <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab" tabindex="0"><div class="tab-content">
+              <div class="tab-content-img"><img src="/images/Rectangle 2486.png" alt="" /></div>
+              <div class="tab-content-text">
+                <h5>Financial Institution</h5>
+                <p>
+                  home2
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eligendi enim necessitatibus numquam quae error corporis,
+                  molestias cumque. Quasi in corrupti reiciendis incidunt harum!
+                  Voluptatibus numquam maiores rem nobis, enim aliquam.
+                </p>
+              </div>
+            </div></div>
+          <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab" tabindex="0"><div class="tab-content">
+              <div class="tab-content-img"><img src="/images/Rectangle 2486.png" alt="" /></div>
+              <div class="tab-content-text">
+                <h5>Financial Institution</h5>
+                <p>
+                  home3
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eligendi enim necessitatibus numquam quae error corporis,
+                  molestias cumque. Quasi in corrupti reiciendis incidunt harum!
+                  Voluptatibus numquam maiores rem nobis, enim aliquam.
+                </p>
+              </div>
+            </div></div>
+          <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab" tabindex="0"><div class="tab-content">
+              <div class="tab-content-img"><img src="/images/Rectangle 2486.png" alt="" /></div>
+              <div class="tab-content-text">
+                <h5>Financial Institution</h5>
+                <p>
+                  home4
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eligendi enim necessitatibus numquam quae error corporis,
+                  molestias cumque. Quasi in corrupti reiciendis incidunt harum!
+                  Voluptatibus numquam maiores rem nobis, enim aliquam.
+                </p>
+              </div>
+            </div></div>
+        </div>
+        
+      </section>
+
+      <!-- Award and wins -->
+      <section id="award_and_wins" >
+        <div id="award_and_wins_sub">
+          <div class="award_and_wins_box">
+            <h4 id="experience">20+</h4>
+            <p>Years experience</p>
+          </div>
+
+          <div class="award_and_wins_box">
+            <h4>35+</h4>
+            <p>Award Wins</p>
+          </div>
+
+          <div class="award_and_wins_box">
+            <h4>1750+</h4>
+            <p>Happy Customers</p>
+          </div>
+
+          <div class="award_and_wins_box">
+            <h4>120+</h4>
+            <p>Our Expert Staffs</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+      <div id="footer_section">
+        <div id="footer_logo_section">
+          <div>
+            <img src="/images/logo.png" alt="Mabilla logo" />
+            <p>
+              Mabilla Group provides this building technology services in
+              Nigeria with the aim of making building and infrastructure works
+              easier and safer.
+            </p>
+          </div>
+        </div>
+        <ul>
+          <h2>Mabilla Group</h2>
+          <li><a href="./industries.html">Finance</a></li>
+          <li><a href="./industries.html">Solar</a></li>
+          <li><a href="./industries.html">Education</a></li>
+          <li><a href="./industries.html">Affiliate</a></li>
+        </ul>
+        <ul>
+          <h2>Quick Links</h2>
+          <li><a href="./contact.html">Contact Us</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./terms-and-condition.html">Terms & conditions</a></li>
+          <li><a href="./privacy-and-policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div id="copyright">
+        <hr />
+        <p><span>&copy;</span> Mabillagroup - 2022. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+
+    <!-- custom script -->
+    <script>
+      const firstTabEl = document.querySelector('#myTab li:last-child button')
+      const firstTab = new bootstrap.Tab(firstTabEl)
+    
+      firstTab.show()
+    </script>
+    <script src="/script/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

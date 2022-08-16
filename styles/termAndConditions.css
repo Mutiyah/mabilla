@@ -1,0 +1,67 @@
+@import url("/styles/nav.css");
+@import url("/styles/footer.css");
+
+#terms-section {
+  padding: 6em 5em 3em 5em;
+  width: 100%;
+  height: auto;
+}
+
+#terms-outline > li{
+    margin-bottom: 8px;
+}
+
+#terms-section ol, #terms-section ul{
+    padding-left: 15px;
+}
+
+.term-list > div{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.term-list > div > li{
+    width: 30%;
+    font-weight: bold;
+
+}
+
+.term-list > div > section {
+    width: 68%;
+}
+
+.term-list > div > section > p{
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+
+@media (max-width: 900px) {
+    #terms-section{
+      padding-left: 6em;
+      padding-right: 6em;
+    }
+}
+
+@media (max-width: 600px) {
+    #terms-section{
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+      }
+
+      .term-list > div{
+        flex-direction: column;
+      }
+
+      .term-list > div > li{
+          margin-bottom: 15px;
+      }
+
+      .term-list > div > li,
+        .term-list > div > section {
+            width: 100%;
+  }        
+}
+
+

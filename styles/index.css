@@ -1,0 +1,355 @@
+/* css imports */
+@import url("./nav.css");
+@import url("./footer.css");
+
+
+#next_after_topmost,
+#businesses_section,
+.who_we_are,
+.brand {
+  padding: 5em 5em 2.5em 5em;
+  height: auto;
+}
+
+#next_after_topmost {
+  padding: 7em 5em 2.5em 5em;
+} 
+
+#next_after_topmost {
+  background-color: #132144;
+  align-items: center;
+}
+
+#next_after_topmost,
+#next_after_topmost_img_sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+#next_after_topmost_img_sub {
+  align-items: flex-start;
+}
+
+#next_after_topmost_text {
+  line-height: 3;
+  color: #fff;
+  padding-right: 30px;
+  font-family: "Poppins";
+}
+
+#next_after_topmost_img,
+#next_after_topmost_text,
+#next_after_topmost_img_sub {
+  width: 40%;
+}
+
+#next_after_topmost_text > h1 {
+  font-size: 3.5em;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+#next_after_topmost_text > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 44px;
+}
+
+#next_after_topmost_img img,
+#next_after_topmost_img_sub img {
+  object-fit: contain !important;
+  border-radius: 9.14384px;
+  margin-bottom: 20px;
+  padding-right: 0;
+}
+#next_after_topmost_img img,
+#next_after_topmost_img_sub img,
+#next_after_topmost_img_sub {
+  width: 100%;
+}
+
+#next_after_topmost_img_sub img {
+  object-fit: contain;
+}
+
+#next_after_topmost_img_sub img:first-child {
+  width: 40%;
+}
+
+#next_after_topmost_img_sub img:last-child {
+  width: 55%;
+}
+
+/* businesses section */
+#businesses_section h2 {
+  text-align: center;
+}
+#business {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#business img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+}
+
+#businesses_section h2,
+.who_we_are div p {
+  font-size: 1.7em;
+  margin-bottom: 40px;
+}
+
+.brand h4,
+#businesses_section h2,
+.who_we_are div p {
+  color: #5a5a5a;
+}
+
+/* Who we are section */
+.who_we_are {
+  display: flex;
+  justify-content: space-between;
+}
+
+.who_we_are div,
+.who_we_are ul {
+  width: 45%;
+}
+
+.who_we_are div {
+  font-weight: bold;
+}
+
+#content_about_us,
+.who_we_are div a {
+  font-size: 1.2em !important;
+  font-family: "Poppins" !important;
+}
+
+.who_we_are div h2 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.who_we_are div a {
+  color: #00b0f0;
+  text-decoration: none;
+}
+
+.who_we_are ul {
+  padding-left: 0;
+}
+
+.who_we_are ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+  margin-bottom: 15px;
+  align-items: center;
+  padding: 10px;
+  color: #000;
+}
+
+.who_we_are ul li i {
+  color: #00b0f0;
+}
+
+/* Brand section */
+.brand {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.brand h2,
+.brand h4 {
+  font-weight: bold;
+}
+
+.brand h2 {
+  margin: 12px 0 12px 0;
+}
+
+.brand p {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.brand img{
+  height: 80vh;
+  width: 80%;
+  margin: auto;
+}
+
+.nav-tabs > .nav-item > .nav-link{
+  padding-left: 15px !important;
+}
+
+/* Contact us link section */
+#contact_link {
+  background-image: url("/images/mask.png");
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#contact_link_sub {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5em;
+  background: linear-gradient(
+    90deg,
+    #132144 0%,
+    rgba(19, 33, 68, 0.91058) 23.93%,
+    rgba(19, 33, 68, 0) 96.01%
+  );
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#contact_link_sub h2 {
+  font-size: 3em;
+  width: 50%;
+  padding: 1em 0;
+}
+
+#contact_link_sub p {
+  font-size: 1.2em;
+}
+
+#contact_link_sub a {
+  color: #00b0f0;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+#contact_link_sub a i {
+  margin-right: 10px;
+}
+
+@media (max-width: 900px) {
+  /* next section after topmost section */
+  #businesses_section,
+  #next_after_topmost,
+  .who_we_are,
+  .brand,
+  #contact_link_sub {
+    padding-left: 6em;
+    padding-right: 6em;
+  }
+
+  #next_after_topmost {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #next_after_topmost_text,
+  #next_after_topmost_img {
+    width: 100% !important;
+    padding: 0;
+  }
+
+  #next_after_topmost_img_sub {
+    width: 100%;
+  }
+
+  #next_after_topmost_img_sub img {
+    width: 45%;
+  }
+
+  /* Brand section */
+  .brand p {
+    width: 100%;
+    text-align: justify;
+  }
+
+  /* Contact us link section */
+
+  #contact_link_sub h2 {
+    font-size: 2em;
+    padding: 0.2em;
+  }
+}
+
+@media (max-width: 600px) {
+  #businesses_section,
+  #next_after_topmost,
+  .who_we_are,
+  .brand,
+  #contact_link_sub {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+
+  /* next section after topmost section */
+  #next_after_topmost_text h1 {
+    font-size: 40px;
+  }
+
+  #next_after_topmost_text p {
+    font-size: 15px;
+  }
+
+  /* businesses section */
+  #businesses_section h2,
+  .who_we_are div p {
+    font-size: 1.2em;
+  }
+
+  #business img {
+    width: 150px;
+  }
+
+  /* Who we are section */
+  .who_we_are {
+    flex-direction: column;
+  }
+
+  .who_we_are div,
+  .who_we_are ul {
+    width: 100%;
+  }
+
+  .who_we_are div h2 {
+    font-size: 2em;
+    width: 100%;
+  }
+
+  .who_we_are div h2 br {
+    display: none;
+  }
+
+  .who_we_are ul {
+    margin-top: 20px;
+  }
+
+  .who_we_are ul li {
+    padding-left: 0;
+  }
+
+  /* Contact us link section */
+  #contact_link_sub h2 {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 500px){
+  .brand img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+}
